@@ -1,0 +1,124 @@
+			body {
+				font-family: Arial,Verdama,Geneva,Arial,sans-serif;
+				font-size: small;
+				margin: 50px;
+				background-color: #b5a789
+				line-height: 1.5%;
+			}
+
+			#main {
+			/*	font-size: 105%;*/
+				margin: 0px 300px 10px 100px;
+				padding: 0px 30px 30px 0px;
+			}
+
+			h1, h2 {
+				font-size: 200%;
+				text-decoration: blink;
+				font-weight: bolder;
+
+			}
+
+			h2 {
+				font-size: 1.5em;
+			}
+			p:first-letter {font-size: 2em;
+
+			}
+			p:first-line {
+				font-size: 1.5em;
+			}
+
+			blockquote {
+				font-style: italic;
+				font-size: 1.1em;
+				font-weight: normal;
+			}
+			em {
+				font-size: 150%;
+				font-weight: normal;
+			}
+			/*自定义类*/
+			p.green {
+				color: green;
+				text-decoration: line-through;
+			}
+			p.import {
+				font-size: 120%;
+				font-weight: bold;
+			}
+			/*.guarantee {
+				/*边框*/
+				border-color:  black;
+				border-width: 1px;
+				border-style: dashed;
+				border-right-width: thick;
+				background-color: #a7cece;
+
+				/*补白默认顺序是上右下左*/
+				padding: 25px;
+				padding-left: 80px;
+
+				/*边界margin*/
+				margin: 20px;
+				margin-right: 35px;
+				/*背景图片*/
+				background-image: url(photo/1.gif);
+				background-repeat: repeat;
+				background-position: center;*/
+
+			}
+			/*id属性--类似类*/
+			p#footer {
+				font-size: smaller;
+				font-style: italic;
+				font-weight: bold;
+			}
+
+			/*div使用*/
+			#helper {
+				border-width: thin;
+				border-style: solid;
+				border-color: #007e7e;
+				width: 200px;
+
+				padding: 20px;
+				padding-top: 0px;
+
+				margin-left: 50px;
+
+				text-align: center;
+
+				line-height: 1.7em;
+				float: right;
+
+
+			}
+			/*修改div容器中的元素*/
+			#helper h2 {
+				color: green;
+			}
+
+			/*span元素使用*/
+
+			.book {
+				font-style: italic;
+			}
+			.author {
+				font-weight: bolder;
+			}
+			table {
+				margin-left: 20px;
+				margin-right: 20px;
+				border: thin solid black;
+				caption-side: top;
+			}
+
+			td, th {
+				border: thin dotted gray;
+				padding: 5px;
+			}
+			caption {
+				font-style: italic;
+				padding-top: 8px;
+			}
